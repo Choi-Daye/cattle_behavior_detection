@@ -114,7 +114,7 @@ After raw YOLOv10 detection, multi-stage filtering was applied to ensure tempora
 > Model achieved **93.7% recall** and reduced false alarms to **16.6%** using post-validation filters.  
 > Most missed events occurred when multiple cows overlapped under poor illumination.
 
-[Insert Detection Visualization Here]  
+<img width="294" height="217" alt="Image" src="https://github.com/user-attachments/assets/caee7f40-e26d-4fa7-8fe9-b29cf55a18e6" />
 
 ---
 
