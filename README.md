@@ -60,7 +60,8 @@ After raw YOLOv10 detection, multi-stage filtering was applied to ensure tempora
 | **4. Frame Gap** | ≤ **30 frames** | Groups nearby detections as one event |
 
 **Filter Flow:**
-- Raw Detection → Confidence ≥ 0.75 → Height Δ ≥ 10px → Consecutive Frames > 5 → Frame Gap ≤ 30 → ✅ Mounting Confirmed
+- Raw Detection → Confidence ≥ 0.75 → Height Δ ≥ 10px → Consecutive Frames > 5 → Frame Gap ≤ 30 
+→ ✅ Mounting Confirmed
 
 ---
 
@@ -109,7 +110,6 @@ After raw YOLOv10 detection, multi-stage filtering was applied to ensure tempora
 |--------|--------|---------|--------|
 | **Recall (Detection Rate)** | **93.7%** | ≥ 90% | ✅ Achieved |
 | **FPR (False Positive Rate)** | **16.6%** | ≤ 20% | ✅ Achieved |
-| **Detection Accuracy (Nighttime)** | High Consistency | – | ✅ Verified |
 
 > Model achieved **93.7% recall** and reduced false alarms to **16.6%** using post-validation filters.  
 > Most missed events occurred when multiple cows overlapped under poor illumination.
